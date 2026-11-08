@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>弁護士法人 CYBER GUARD | ネットのトラブルに、確かな法律の盾を</title>
+<meta name="description" content="SNSでの誹謗中傷、ネット上の風評被害、個人情報の流出など、インターネットのトラブルに専門の弁護士が対応します。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500;700&family=Cinzel:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ Header ============ -->
+<header class="header" id="header">
+  <a href="#top" class="logo" aria-label="弁護士法人 CYBER GUARD">
+    <img class="logo__mark" src="images/hero-scales.png" alt="" width="44" height="48">
+    <span class="logo__text">
+      <small>弁護士法人</small>
+      <strong>CYBER GUARD</strong>
+      <em>デジタル社会のトラブルに、法律の力で立ち向かう。</em>
+    </span>
+  </a>
+
+  <nav class="gnav" aria-label="グローバルナビゲーション">
+    <ul>
+      <li><a href="#about">私たちについて</a></li>
+      <li><a href="#services">取扱業務</a></li>
+      <li><a href="#lawyer">弁護士紹介</a></li>
+      <li><a href="#flow">ご相談の流れ</a></li>
+      <li><a href="#faq">よくあるご質問</a></li>
+      <li><a href="#contact" data-modal-open="contact">お問い合わせ</a></li>
+    </ul>
+  </nav>
+
+  <a href="tel:0120000000" class="header__tel">
+    <span class="header__tel-num">0120-000-000</span>
+    <span class="header__tel-time">受付時間 10:00〜18:00（土日祝を除く）</span>
+  </a>
+
+  <button class="hamburger" id="hamburger" aria-label="メニューを開く" aria-expanded="false" aria-controls="drawer">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- Drawer (mobile) -->
+<div class="drawer" id="drawer" aria-hidden="true">
+  <ul>
+    <li><a href="#about">私たちについて</a></li>
+    <li><a href="#services">取扱業務</a></li>
+    <li><a href="#lawyer">弁護士紹介</a></li>
+    <li><a href="#flow">ご相談の流れ</a></li>
+    <li><a href="#faq">よくあるご質問</a></li>
+    <li><a href="#contact" data-modal-open="contact">お問い合わせ</a></li>
+  </ul>
+  <a href="tel:0120000000" class="drawer__tel">
+    <strong>0120-000-000</strong>
+    <span>受付時間 10:00〜18:00（土日祝を除く）</span>
+  </a>
+</div>
+
+<main id="top">
+
+<!-- ============ Hero Slideshow ============ -->
+<section class="hero" id="hero" aria-roledescription="carousel" aria-label="メインビジュアル">
+  <div class="hero__slides">
+
+    <div class="slide is-active" data-slide="0">
+      <div class="slide__bg slide__bg--1" data-parallax="0.25"></div>
+      <img class="hero__scales" data-parallax="-0.08" src="images/hero-scales.png" alt="" width="400" height="420">
+    </div>
+
+    <div class="slide" data-slide="1">
+      <div class="slide__bg slide__bg--2" data-parallax="0.25"></div>
+      <div class="hero__net" data-parallax="-0.1" aria-hidden="true"></div>
+    </div>
+
+    <div class="slide" data-slide="2">
+      <div class="slide__bg slide__bg--3" data-parallax="0.25"></div>
+      <div class="hero__net hero__net--r" data-parallax="-0.1" aria-hidden="true"></div>
+    </div>
+
+  </div>
+
+  <div class="hero__inner">
+    <div class="hero__copy is-active" data-copy="0">
+      <h1 class="hero__title split-text" data-text="ネットのトラブルに、<br>確かな法律の盾を。"></h1>
+      <p class="hero__lead">SNSでの誹謗中傷、ネット上の風評被害、個人情報の流出。<br>著作権侵害。デジタル社会で起こるさまざまな法律問題に、<br>専門知識と豊富な経験を持つ弁護士が対応します。<br>あなたの権利と大切な未来を守るために。</p>
+    </div>
+    <div class="hero__copy" data-copy="1">
+      <h2 class="hero__title split-text" data-text="誹謗中傷から、<br>あなたを守り抜く。"></h2>
+      <p class="hero__lead">投稿の削除請求から発信者情報開示、損害賠償請求まで。<br>スピードと確実性を重視し、最短ルートでの解決をご提案します。</p>
+    </div>
+    <div class="hero__copy" data-copy="2">
+      <h2 class="hero__title split-text" data-text="一人で抱え込まず、<br>まずはご相談を。"></h2>
+      <p class="hero__lead">初回のご相談は無料です。ITの知識も法律の知識も、<br>どちらもわかる弁護士がやさしく丁寧にお話を伺います。</p>
+    </div>
+
+    <div class="hero__btns">
+      <button type="button" class="btn btn--gold" data-modal-open="contact">
+        無料相談のお申し込み <i>›</i>
+      </button>
+      <a href="troubles.html" class="btn btn--line">解決できるトラブルを見る <i>›</i></a>
+    </div>
+  </div>
+
+  <div class="hero__ctrl">
+    <button type="button" class="hero__arrow" id="prevSlide" aria-label="前のスライド">‹</button>
+    <div class="hero__dots" id="heroDots" role="tablist"></div>
+    <button type="button" class="hero__arrow" id="nextSlide" aria-label="次のスライド">›</button>
+  </div>
+  <div class="hero__progress"><span id="heroProgress"></span></div>
+  <div class="hero__wave" aria-hidden="true"></div>
+</section>
+
+<!-- ============ Services ============ -->
+<section class="services section" id="services">
+  <p class="section__eyebrow reveal">インターネット上のあらゆるトラブルに対応します</p>
+  <h2 class="section__title reveal">取扱業務</h2>
+
+  <ul class="services__grid">
+    <li class="reveal"><button class="card" data-service="sns">
+      <span class="card__img"><img src="images/SNS.jpg" alt="" loading="lazy"></span>
+      <span class="card__body"><b>01. SNS・ネット誹謗中傷</b><small>SNSや掲示板への悪質な書き込み、名誉毀損、侮辱などに対応します。</small></span><em>›</em></button></li>
+    <li class="reveal"><button class="card" data-service="fuhyo">
+      <span class="card__img"><img src="images/net.jpg" alt="" loading="lazy"></span>
+      <span class="card__body"><b>02. ネット風評被害・炎上対策</b><small>企業や個人の信用を損なう悪質な口コミや炎上問題に対応します。</small></span><em>›</em></button></li>
+    <li class="reveal"><button class="card" data-service="privacy">
+      <span class="card__img"><img src="images/kojinnjouhou.jpg" alt="" loading="lazy"></span>
+      <span class="card__body"><b>03. 個人情報漏洩・プライバシー侵害</b><small>個人情報の無断公開や拡散など、プライバシーを守ります。</small></span><em>›</em></button></li>
+    <li class="reveal"><button class="card" data-service="copyright">
+      <span class="card__img"><img src="images/tyosakuken.jpg" alt="" loading="lazy"></span>
+      <span class="card__body"><b>04. 著作権・知的財産権侵害</b><small>画像・動画・文章の無断使用に関する問題を解決します。</small></span><em>›</em></button></li>
+    <li class="reveal"><button class="card" data-service="fraud">
+      <span class="card__img"><img src="images/sagi.jpg" alt="" loading="lazy"></span>
+      <span class="card__body"><b>05. ネット詐欺・オンライン犯罪</b><small>SNS詐欺やフィッシング詐欺など、ネット犯罪の被害に対応します。</small></span><em>›</em></button></li>
+    <li class="reveal"><button class="card" data-service="it">
+      <span class="card__img"><img src="images/it.jpg" alt="" loading="lazy"></span>
+      <span class="card__body"><b>06. IT・インターネット関連法務</b><small>Webサービスや契約など、IT企業の法務をサポートします。</small></span><em>›</em></button></li>
+  </ul>
+</section>
+
+<!-- ============ Strengths (parallax) ============ -->
+<section class="strengths" id="about">
+  <div class="strengths__bg" data-parallax="0.18"></div>
+  <div class="strengths__inner">
+    <div class="strengths__head reveal">
+      <p>CYBER GUARDが選ばれる理由</p>
+      <h2>私たちが大切にしている<br>3つの強み</h2>
+      <a href="about.html" class="btn btn--ghost-gold">私たちについて <i>›</i></a>
+    </div>
+    <ul class="strengths__list">
+      <li class="reveal"><span class="num">01</span><h3>ネット問題に特化した<br>専門性</h3><p>インターネット関連の法律問題に精通した弁護士が対応します。</p></li>
+      <li class="reveal"><span class="num">02</span><h3>一人ひとりに寄り添う対応</h3><p>初めての方でも安心してご相談いただけます。</p></li>
+      <li class="reveal"><span class="num">03</span><h3>デジタルと法律の両面から解決</h3><p>ITの知識も活かし、最適な解決策をご提案します。</p></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ Flow ============ -->
+<section class="flow section" id="flow">
+  <p class="section__eyebrow reveal">ご相談から解決まで</p>
+  <h2 class="section__title reveal">初めての方も安心。ご相談の流れ</h2>
+  <ol class="flow__list">
+    <li class="reveal"><span class="flow__n">1</span><img class="flow__icon" src="images/flow-1.svg" alt="" width="40" height="40" loading="lazy"><b>お問い合わせ</b><small>専用フォームまたはお電話からご連絡</small></li>
+    <li class="reveal"><span class="flow__n">2</span><img class="flow__icon" src="images/flow-2.svg" alt="" width="40" height="40" loading="lazy"><b>初回法律相談</b><small>トラブルの内容を詳しくお伺い</small></li>
+    <li class="reveal"><span class="flow__n">3</span><img class="flow__icon" src="images/flow-3.svg" alt="" width="40" height="40" loading="lazy"><b>解決方針・お見積りのご案内</b><small>必要な対応と費用をご説明</small></li>
+    <li class="reveal"><span class="flow__n">4</span><img class="flow__icon" src="images/flow-4.svg" alt="" width="40" height="40" loading="lazy"><b>正式ご依頼・対応開始</b><small>ご納得いただいたうえで対応を開始</small></li>
+    <li class="reveal"><span class="flow__n">5</span><img class="flow__icon" src="images/flow-5.svg" alt="" width="40" height="40" loading="lazy"><b>解決・アフターフォロー</b><small>今後のトラブル予防もサポート</small></li>
+  </ol>
+</section>
+
+<!-- ============ Lawyer + FAQ ============ -->
+<section class="lawfaq" >
+  <div class="lawyer reveal" id="lawyer">
+    <div class="lawyer__photo"><img src="images/benngosi.jpg" alt="代表弁護士 佐藤 健一（仮画像）" loading="lazy"></div>
+    <div class="lawyer__body">
+      <h2>代表弁護士　佐藤 健一</h2>
+      <p class="lawyer__en">KENICHI SATO / REPRESENTATIVE LAWYER</p>
+      <p>インターネットが社会に浸透する一方で、ネット上のトラブルによって人生や事業に大きな影響を受ける方も増えています。私は、法律の力でそうした問題に立ち向かい、誰もが安心してデジタル社会を利用できる環境を実現したいと考えています。</p>
+      <button type="button" class="btn btn--small" data-modal-open="profile">詳しく見る <i>›</i></button>
+    </div>
+  </div>
+
+  <div class="faq" id="faq">
+    <div class="faq__head">
+      <h2>よくあるご質問</h2>
+      <button type="button" class="btn btn--tiny" id="faqToggleAll">一覧を見る <i>›</i></button>
+    </div>
+    <div class="accordion">
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false" aria-controls="acc1" id="accb1">Q. SNSで誹謗中傷の書き込みをされました。削除できますか？<span class="acc-icon"></span></button>
+        <div class="acc-panel" id="acc1" role="region" aria-labelledby="accb1"><div><p>A. 投稿内容や掲載先のルールによりますが、多くの場合、運営会社への削除請求や仮処分の申立てによって削除を目指すことができます。まずは該当投稿のURLとスクリーンショットを保存したうえでご相談ください。</p></div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false" aria-controls="acc2" id="accb2">Q. 匿名アカウントの投稿者を特定できますか？<span class="acc-icon"></span></button>
+        <div class="acc-panel" id="acc2" role="region" aria-labelledby="accb2"><div><p>A. 発信者情報開示請求という法的手続きにより、特定できる可能性があります。ログの保存期間には限りがあるため、できるだけ早い段階でのご相談をおすすめします。</p></div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false" aria-controls="acc3" id="accb3">Q. 相談内容が外部に漏れることはありませんか？<span class="acc-icon"></span></button>
+        <div class="acc-panel" id="acc3" role="region" aria-labelledby="accb3"><div><p>A. 弁護士には法律上の守秘義務があり、ご相談内容が許可なく外部に漏れることはありません。安心してお話しください。</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta" id="contact">
+  <div class="cta__bg" data-parallax="0.15"></div>
+  <div class="cta__inner">
+    <div class="cta__copy">
+      <h2>ネットの悩みを、一人で抱え込まないでください。</h2>
+      <p>インターネット上のトラブルは、早期の対応が重要です。</p>
+    </div>
+    <div class="cta__box">
+      <p class="cta__label">無料法律相談のお申し込み</p>
+      <p class="cta__note">ご相談内容を確認のうえ、担当者よりご連絡いたします。</p>
+      <a href="tel:0120000000" class="cta__tel">☎ 0120-000-000</a>
+    </div>
+    <button type="button" class="btn btn--navy" data-modal-open="contact">お問い合わせフォームへ <i>›</i></button>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ Footer ============ -->
+<footer class="footer">
+  <div class="footer__logo">
+    <img src="images/hero-scales.png" alt="" width="38" height="42">
+    <div><small>弁護士法人</small><strong>CYBER GUARD</strong></div>
+  </div>
+  <p class="footer__slogan">デジタル社会のトラブルに、法律の力で立ち向かう。</p>
+  <ul class="footer__nav">
+    <li><a href="#about">私たちについて</a></li>
+    <li><a href="#services">取扱業務</a></li>
+    <li><a href="#lawyer">弁護士紹介</a></li>
+    <li><a href="#flow">ご相談の流れ</a></li>
+    <li><a href="#faq">よくあるご質問</a></li>
+    <li><a href="#contact" data-modal-open="contact">お問い合わせ</a></li>
+    <li><a href="#" data-modal-open="privacypolicy">プライバシーポリシー</a></li>
+  </ul>
+  <small class="footer__copy">© 2026 CYBER GUARD LAW OFFICE. All Rights Reserved.</small>
+</footer>
+
+<!-- ============ Modal ============ -->
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal__overlay" data-modal-close></div>
+  <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle" tabindex="-1">
+    <button type="button" class="modal__close" data-modal-close aria-label="閉じる">×</button>
+    <div class="modal__content" id="modalContent"></div>
+  </div>
+</div>
+
+<!-- Modal content templates -->
+<template id="tpl-contact">
+  <h2 id="modalTitle" class="modal__title">無料相談のお申し込み</h2>
+  <p class="modal__lead">内容を確認のうえ、1営業日以内に担当者よりご連絡いたします。</p>
+  <form class="form" id="contactForm" novalidate>
+    <label>お名前<span class="req">必須</span><input type="text" name="name" required autocomplete="name"></label>
+    <label>メールアドレス<span class="req">必須</span><input type="email" name="email" required autocomplete="email"></label>
+    <label>電話番号<input type="tel" name="tel" autocomplete="tel"></label>
+    <label>ご相談内容<span class="req">必須</span>
+      <select name="type" required>
+        <option value="">選択してください</option>
+        <option>SNS・ネット誹謗中傷</option><option>ネット風評被害・炎上対策</option>
+        <option>個人情報漏洩・プライバシー侵害</option><option>著作権・知的財産権侵害</option>
+        <option>ネット詐欺・オンライン犯罪</option><option>IT・インターネット関連法務</option><option>その他</option>
+      </select></label>
+    <label>詳細<textarea name="message" rows="4" placeholder="状況をわかる範囲でご記入ください"></textarea></label>
+    <label class="check"><input type="checkbox" name="agree" required> プライバシーポリシーに同意する</label>
+    <p class="form__error" role="alert" hidden></p>
+    <button type="submit" class="btn btn--gold btn--block">送信する</button>
+  </form>
+</template>
+
+<template id="tpl-profile">
+  <h2 id="modalTitle" class="modal__title">代表弁護士　佐藤 健一</h2>
+  <p class="modal__lead">KENICHI SATO / REPRESENTATIVE LAWYER</p>
+  <dl class="profile">
+    <dt>経歴</dt><dd>大学法学部卒業後、司法試験合格。大手法律事務所を経て、インターネット法務に特化した弁護士法人CYBER GUARDを設立。</dd>
+    <dt>取扱分野</dt><dd>誹謗中傷対策、発信者情報開示、プライバシー侵害、著作権、IT関連法務</dd>
+    <dt>メッセージ</dt><dd>ネット上のトラブルは、早期の対応が結果を大きく左右します。一人で悩まず、まずはお話をお聞かせください。</dd>
+  </dl>
+  <button type="button" class="btn btn--gold btn--block" data-modal-open="contact">無料相談を申し込む</button>
+</template>
+
+<template id="tpl-privacypolicy">
+  <h2 id="modalTitle" class="modal__title">プライバシーポリシー</h2>
+  <p class="modal__lead">当事務所は、お預かりした個人情報を適切に管理し、ご相談対応の目的以外には使用いたしません。</p>
+  <p>※ 本ページはデモ用のサンプル文面です。実運用時は正式な内容に差し替えてください。</p>
+</template>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1152 922"><metadata><?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?><x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 6.0.0"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmpMM:DocumentID="xmp.did:cb9f5498-bb58-4572-8043-8c369e6bfb9b" xmpMM:InstanceID="xmp.iid:cb9f5498-bb58-4572-8043-8c369e6bfb9b" dcterms:provenance="https://cai-manifests.adobe.com/manifests/urn-c2pa-6a4d9576-ac50-4b6f-a255-5cf8715a6d40-adobe"> </rdf:Description></rdf:RDF></x:xmpmeta>
+<?xpacket end="w"?></metadata>
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f1f3f6;
+      }
+
+      .cls-2 {
+        fill: #29275a;
+      }
+
+      .cls-3 {
+        fill: #f6f7f9;
+      }
+    </style>
+  </defs>
+  <path class="cls-3" d="M986,241v2.09h4v-2.09h-4Z"/>
+  <path class="cls-3" d="M180.11,657.66c.29-4.53-1.03-5.37-2.08-6.44-1.36-1.39-3.88.27-4.5,1.38,1.09,3.67,4.2,5.88,6.58,5.06Z"/>
+  <path class="cls-1" d="M249.57,617.54c-2.9,3.22-5.65,7.12-9.13,9.92-2.61-1.14-2.97-3.91-2.29-6.69.64-2.59,9.04-5.51,11.42-3.24Z"/>
+  <g>
+    <polygon class="cls-3" points="685.17 452.06 956.77 753.59 195.35 753.59 466.89 452.08 576.07 552.16 685.17 452.06"/>
+    <g>
+      <path class="cls-3" d="M174.17,701.29l-11.15,12.17-.92-1.42v-19.03c4.44-.51,5,5.94,12.07,8.29Z"/>
+      <g>
+        <path class="cls-2" d="M342.96,126.32h452.04s246.23,0,246.23,0l-69.39,63.46-249.52,227.99,267.63,297.07-.07-435.98,26.47-24.38,25.41-22.91-.14,526.17c0,23.93-21.08,44.07-44.81,44.06l-843.64-.12c-22.46,0-42.78-21.67-42.79-43.76l-.18-526.42,28.66,25.77,23.24,21.17-.02,412.61.02,1.95v19.03c-.68.68-.15,2.32.92,1.42l11.15-12.17,41.4-45.7c1.11-1.22,1.51-2.23,1.12-3.49,1.48-.29,2.45-.39,3.67-1.78l20.09-22.86c3.49-2.81,6.23-6.7,9.13-9.92l180.04-199.94-244.16-223.18-74.7-68.07,232.22-.02ZM685.17,452.06l-109.1,100.1-109.18-100.08-271.54,301.51h761.41s-271.6-301.53-271.6-301.53Z"/>
+        <path class="cls-1" d="M163.02,713.46c-1.07.89-1.6-.75-.92-1.42l.92,1.42Z"/>
+      </g>
+    </g>
+  </g>
+  <rect class="cls-1" x="986" y="241" width="4" height="2.09"/>
+  <path class="cls-1" d="M180.11,657.66c-2.38.82-5.49-1.39-6.58-5.06.62-1.11,3.13-2.77,4.5-1.38,1.05,1.07,2.37,1.91,2.08,6.44Z"/>
+</svg>
